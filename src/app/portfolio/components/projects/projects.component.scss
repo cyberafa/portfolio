@@ -1,0 +1,52 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1.5em;
+  flex-direction: column;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    li {
+      flex: 20%;
+    }
+  }
+
+  ul li button {
+    background-color: transparent;
+    border: solid 2px var(--primary);
+    border-radius: 10px;
+    width: 100%;
+    padding: 3em 0;
+    margin-top: 1.5em;
+    transition: 500ms all;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--primary);
+      transition: 500ms all;
+    }
+  }
+
+  &::after {
+    content: "";
+    margin-top: 3em;
+    height: 50px;
+    width: 100%;
+    background-color: var(--primary);
+  }
+
+  @media (max-width: 800px) {
+    ul {
+      li {
+        flex: 100%;
+      }
+    }
+  }
+}

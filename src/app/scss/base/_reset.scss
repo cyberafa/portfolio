@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Inter, Roboto, sans-serif;
+  src: url("../../../../public/font/Inter-VariableFont.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, Roboto, sans-serif, "Helvetica Neue", sans-serif;
+  background-color: var(--black);
+}
+
+h1,
+h2,
+h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+p {
+  color: var(--grey);
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

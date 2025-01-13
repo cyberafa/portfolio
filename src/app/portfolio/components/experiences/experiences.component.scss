@@ -1,0 +1,49 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
+
+  details {
+    overflow: hidden;
+    margin-top: 1em;
+    background-color: var(--black-010);
+    border-radius: 1em;
+
+    summary {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--primary);
+
+      &::after {
+        content: url(../../../../../public/icons/chevron-down.svg);
+      }
+    }
+
+    summary,
+    article {
+      padding: 0 20px;
+      transition: 500ms ease-out;
+    }
+
+    summary p {
+      display: flex;
+      flex-direction: column;
+      color: var(--white);
+      font-size: 14px;
+    }
+
+    &[open] {
+      summary {
+        &::after {
+          content: url(../../../../../public/icons/chevron-up.svg);
+        }
+      }
+    }
+  }
+}
