@@ -24,34 +24,34 @@ export class ProjectsComponent {
   public arrayProjects = signal<IProjects[]>([
     {
       src: 'img/projects/calculator.png',
-      alt: 'Projeto da calculadora',
-      title: 'Calculadora',
+      alt: 'Calculator',
+      title: 'Calculator',
       width: '80px',
       height: '80px',
-      description: `Teste a calculadora feita por mim, do zero, usando Angular e suas funcionalidades!
+      description: `Test the calculator built by me from scratch, using Angular and its features!
         <br>
         <br>
-        Ela <b>ainda</b> é uma calculadora simples, com todas as operações básicas, mas feita com muito carinho e dedicação.  `,
+        It's <b>still</b> a simple calculator, with all the basic operations, but made with a lot of care and dedication.  `,
       links: [
         {
-          name: 'Conheça a calculadora',
+          name: 'Enjoy the Calculator',
           href: 'https://cyberafa.github.io/calculator-angular/',
         },
       ],
     },
     {
       src: 'img/projects/todo-list.png',
-      alt: 'Projeto da Lista de Tarefas',
-      title: 'Lista de tarefas',
+      alt: 'Todo-list',
+      title: 'Todo-list',
       width: '80px',
       height: '80px',
-      description: `Bem vindo à minha lista de tarefas!
+      description: `Welcome to my Todo-list!
       <br>
       <br>
-      Feita inteiramente com Angular 19 e suas funcionalidades, explore e gerencie sua própria lista de tarefas. Adicione, delete, mude, marque como pendente, ou concluída cada uma de suas tarefas da maneira que quiser!`,
+      Made entirely with Angular 19 and its features, explore and manage your own to-do list. Add, delete, edit, mark as pending, or completed each task however you want!`,
       links: [
         {
-          name: 'Explore a lista de tarefas',
+          name: 'Explore the Todo-list',
           href: 'https://cyberafa.github.io/todo-list/',
         },
       ],

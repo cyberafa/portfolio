@@ -11,10 +11,17 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-        strong: 'Estagiário de TI',
-        p: 'PROCEM Centro de Especialidades Médicas | Novembro 2024 - Present',
+        strong: 'IT Intern',
+        p: 'PROCEM Centro de Especialidades Médicas | 11/2024 - Present',
       },
-      text: '<p>Em meu período na PROCEM, meu trabalho é auxiliar todas as áreas da unidade com problemas relacionados a infraestrutura da TI, como checagem de conexão de servidores VPN, problemas técnicos em um computador, entre outros.</p>',
+      text: '<p>I assist all areas of the unit with IT infrastructure-related issues, such as VPN server checks, technical problems, and more.</p>',
+    },
+    {
+      summary: {
+        strong: 'Freelance Web Developer',
+        p: 'Freelance | 2021 - 2022',
+      },
+      text: '<p>I have developed a variety of freelance projects in the front-end area using mainly VueJS, ReactJS and TypeScript always striving for an innovative and efficient interface.</p>',
     },
   ]);
 }
